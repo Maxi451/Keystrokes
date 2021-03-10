@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="keystroke"
+version="${file.jarVersion}"
+displayName="Keystroke Mod"
+logoFile="examplemod.png"
+credits="By Massimiliano Micol"
+authors="Massimiliano Micol"
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Example keystroke mod for job interview
+'''
+[[dependencies.Keystroke]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.Keystroke]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
